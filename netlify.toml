@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# Merch is temporarily unavailable. Keep existing bookmarks useful without
+# permanently replacing the page's address in browsers or search engines.
+[[redirects]]
+  from = "/merch.html"
+  to = "/music"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/merch"
+  to = "/music"
+  status = 302
+  force = true

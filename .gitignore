@@ -1,0 +1,11 @@
+.env
+.DS_Store
+.playwright-mcp/
+screenshots/
+data/
+node_modules/
+dist/
+.netlify/
+
+# Full-length audio MP3s omitted from public repo
+audio/**/*.mp3

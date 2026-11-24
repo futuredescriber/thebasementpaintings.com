@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 32" fill="none">
+  <title>Enter</title>
+  <!-- Original lettering inspired by the interrupted, high-contrast capitals
+       on the band's Antipodes artwork. These shapes are not a bundled font. -->
+  <defs>
+    <symbol id="letter-e" viewBox="0 0 24 32" fill="none">
+      <g stroke="#e3e7e3" stroke-width="0.75" stroke-linecap="butt">
+        <path pathLength="100" d="M1 4h20v4M3 16h13m0-3v6M1 28h20v-4"/>
+        <path pathLength="100" d="M4 4v7m0 10v7" stroke-width="2.1"/>
+      </g>
+    </symbol>
+    <symbol id="letter-n" viewBox="0 0 24 32" fill="none">
+      <g stroke="#e3e7e3" stroke-width="0.75" stroke-linecap="butt">
+        <path pathLength="100" d="M1 4h6M1 28h6M17 4h6M17 28h6M4 4v8m0 8v8M20 4v24"/>
+        <path pathLength="100" d="M4 4l7 10m2 4 7 10" stroke-width="2"/>
+      </g>
+    </symbol>
+    <symbol id="letter-t" viewBox="0 0 24 32" fill="none">
+      <g stroke="#e3e7e3" stroke-width="0.75" stroke-linecap="butt">
+        <path pathLength="100" d="M1 8V4h22v4M7 28h10"/>
+        <path pathLength="100" d="M12 5v8m0 6v9" stroke-width="2.1"/>
+      </g>
+    </symbol>
+    <symbol id="letter-r" viewBox="0 0 24 32" fill="none">
+      <g stroke="#e3e7e3" stroke-width="0.75" stroke-linecap="butt">
+        <path pathLength="100" d="M1 4h11c6 0 9 2 9 6s-4 6-9 6H4M1 28h7m9 0h7"/>
+        <path pathLength="100" d="M4 4v7m0 9v8m8-10 8 10" stroke-width="2.1"/>
+      </g>
+    </symbol>
+  </defs>
+  <use href="#letter-e" x="0" width="24" height="32"/>
+  <use href="#letter-n" x="35" width="24" height="32"/>
+  <use href="#letter-t" x="70" width="24" height="32"/>
+  <use href="#letter-e" x="105" width="24" height="32"/>
+  <use href="#letter-r" x="140" width="24" height="32"/>
+</svg>
